@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/omiomi/jiajia/issues"
   },
-  "homepage": "https://github.com/omiomi/jiajia#readme"
+  "homepage": "https://github.com/omiomi/jiajia#readme",
+  "devDependencies": {
+    "node": "0.0.0"
+  }
 }
