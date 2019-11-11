@@ -5,14 +5,39 @@
     "build": "umi build",
     "test": "umi test",
     "lint:es": "eslint --ext .js src mock tests",
-    "lint:ts": "tslint \"src/**/*.ts\" \"src/**/*.tsx\"",
-    "precommit": "lint-staged"
+    "lint:ts": ""
+    
   },
   "dependencies": {
+    "@ant-design/pro-layout": "^4.7.0-2",
+    "@antv/data-set": "^0.10.2",
+    "@types/classnames": "^2.2.9",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/lodash.isequal": "^4.5.5",
+    "antd": "^3.25.1",
+    "antv": "^0.2.2",
+    "bizcharts": "^3.5.3-beta.0",
+    "bizcharts-plugin-slider": "^2.1.1-beta.1",
+    "classnames": "^2.2.6",
+    "customize-cra": "^0.8.0",
     "dva": "^2.6.0-beta.6",
-    "antd": "^3.19.5",
+    "gg-editor": "^2.0.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.5.10",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.8.6",
+    "react-fittext": "^1.0.0",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.1",
+    "umi-plugin-locale": "^2.11.3",
+    "umi-request": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
@@ -32,13 +57,19 @@
     "tslint": "^5.12.0",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-react": "^3.6.0",
-    "umi": "^2.9.0",
+    "umi": "^2.6.9",
     "umi-plugin-react": "^1.8.0",
     "umi-types": "^0.3.0"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["tslint --fix", "git add"],
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{ts,tsx}": [
+      "tslint --fix",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.0.0"
