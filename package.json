@@ -5,8 +5,7 @@
     "build": "umi build",
     "test": "umi test",
     "lint:es": "eslint --ext .js src mock tests",
-    "lint:ts": ""
-    
+    "lint:ts": "tslint \"src/**/*.ts\" \"src/**/*.tsx\""
   },
   "dependencies": {
     "@ant-design/pro-layout": "^4.7.0-2",
