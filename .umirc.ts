@@ -38,6 +38,11 @@ const config: IConfig = {
           component: './EditorFlow',
         },
         {
+          name: '拓扑编辑器',
+          path: '/editorkoni',
+          component: './EditorKoni',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },
