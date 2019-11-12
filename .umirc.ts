@@ -18,6 +18,16 @@ const config: IConfig = {
           component: './AccountSettings',
         },
         {
+          name: '分析页',
+          path: '/dashboardanalysis',
+          component: './DashboardAnalysis',
+        },
+        {
+          name: '监控页',
+          path: '/dashboardmonitor',
+          component: './DashboardMonitor',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },
