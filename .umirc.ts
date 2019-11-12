@@ -28,6 +28,16 @@ const config: IConfig = {
           component: './DashboardMonitor',
         },
         {
+          name: '工作台',
+          path: '/dashboardworkplace',
+          component: './DashboardWorkplace',
+        },
+        {
+          name: '流程编辑器',
+          path: '/editorflow',
+          component: './EditorFlow',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },
