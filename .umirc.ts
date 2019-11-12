@@ -13,6 +13,11 @@ const config: IConfig = {
           component: './accountcenter',
         },
         {
+          name: '个人设置',
+          path: '/accountsettings',
+          component: './AccountSettings',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },
@@ -43,4 +48,3 @@ const config: IConfig = {
   },
 };
 export default config;
-

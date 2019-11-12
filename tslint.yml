@@ -10,5 +10,6 @@ rules:
   no-reference: true
   no-trailing-whitespace: false
   jsx-no-multiline-js: false
+  jsx-wrap-multiline: false #为true报错 “Multiline JSX elements must be wrapped in parentheses”
   jsx-alignment: false
   jsx-no-lambda: false
