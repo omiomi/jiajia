@@ -43,6 +43,11 @@ const config: IConfig = {
           component: './EditorKoni',
         },
         {
+          name: '空白页面',
+          path: '/wyindex2',
+          component: './WyIndex2',
+        },
+        {
           path: '/',
           component: '../pages/index',
         },
